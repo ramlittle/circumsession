@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Mali&family=Montserrat&family=Pacifico&family=Play&display=swap');
+
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+/* #make sure images will follow size of container */
+
+img {
+    Max-width: 100%;
+    Max-height: 100%;
+}
+
+/* general table design */
+
+.general-table-container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.general-table-container h4{
+    padding: 10px;
+    margin-left: 70px;
+}
+.table-data{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+.table-data th,
+.table-data td{
+    padding:10px;
+}
+.table-data  th{
+    color:white;
+    background-color: #003865;
+}
+.table-data td{
+    border:1px solid lightgrey;
+}
+.table-data tr:hover{
+    background-color: #D9D9D9;
+}
+.table-data button{
+    background-color: grey;
+    padding:10px;
+}
+.table-data button:hover{
+    background-color: #E80000;
+    color:white;
+}
+
+
+.general-main-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}

@@ -1,0 +1,141 @@
+.landingpage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2D4059;
+    font-family: 'Mali', cursive;
+    text-align: center;
+}   
+
+.landingpage-content-1 {
+    height: 600px;
+    background-image: url('../images/hero-photo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingpage-content-1-h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.landingpage-content-1-h2 {
+    font-size: 24px;
+    padding: 20px 200px;
+    margin-bottom: 50px;
+}
+
+.landingpage-content-1-p {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.landingpage-content-2 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingpage-steps-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.landingpage-steps-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.landingpage-steps-card-number-1 {
+    font-size: 70px;
+    width: fit-content;
+    display: inline;
+    font-family: 'Anton', sans-serif;
+    margin-right: 10px;
+    color: #B2B2B2;
+}
+
+.landingpage-steps-card-number-2 {
+    font-size: 70px;
+    width: fit-content;
+    display: inline;
+    font-family: 'Anton', sans-serif;
+    margin-right: 10px;
+    color: #73777B;
+}
+
+.landingpage-steps-card-number-3 {
+    font-size: 70px;
+    width: fit-content;
+    display: inline;
+    font-family: 'Anton', sans-serif;
+    margin-right: 10px;
+    color: #434242;
+}
+
+.landingpage-steps-card-description {
+    font-size: 30px;
+    word-break: normal;
+    font-family: 'Play', sans-serif;
+    max-width: 300px;
+}
+
+.landingpage-content-2-h1 {
+    font-size: 40px;
+    align-self: flex-start;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 30px;
+}
+
+.landingpage-content-2-h2 {
+    align-self: flex-start;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.landingpage-button-1 {
+    color: #F7F5F2;
+    background-color: #2D4059;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.landingpage-button-2 {
+    color: #F7F5F2;
+    background-color: #2D4059;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.landingpage-button-1:hover,
+.landingpage-button-2:hover {
+    color: #2D4059;
+    background-color: #F7F5F2;
+    cursor: pointer;
+}
+
+.landingpage-content-1-image {
+    margin-top: 10px;
+    width: 30px;
+}
+
+.landingpage-content-1-image:hover {
+    position: relative;
+    bottom: 2px;
+}

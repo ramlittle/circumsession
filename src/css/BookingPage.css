@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Mali&family=Montserrat&family=Pacifico&family=Play&display=swap');
+
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px 20px;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.admin-section-container {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    border-radius: 5px;
+    font-family: 'Play', sans-serif;
+    align-items: center;
+    padding: 20px;
+}
+
+.admin-picture-container {
+    padding: 10px;
+}
+
+.admin-information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+    padding: 30px;
+}
+
+.admin-sub-information-container span {
+    font-weight: bold;
+}
+
+/* second section */
+.bookings-summary-container {
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff;
+    font-family: 'Play', sans-serif;
+}
+
+.slots-summary-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 30px;
+}
+
+.slots-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.slot-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color:#F7F5F2;
+    background-color: #2D4059;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.red-color {
+    background-color:#E80000;
+}
+
+.black-color {
+    background-color: #444;
+}
+
+.slot-count {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 100%;
+    color: #F7F5F2;
+    background-color: #73777B;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+/* Add Feature */
+.show-add-button {
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.add-form > input,
+.add-form > label,
+.add-form > select,
+.add-form > button {
+    padding:10px;
+    margin:10px;
+    font-size: small;
+    width: 15%;
+}
+
+/* download section */
+.download-link-container {
+    width:100%;
+    text-align: right;
+}
+
+.download-link-container img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.error-msg {
+    color: red;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.search-form {
+    margin-bottom: 10px;
+}

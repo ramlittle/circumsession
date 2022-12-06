@@ -1,0 +1,14 @@
+.search-result-row{
+        border: 1px solid grey;
+        padding: 5px;
+        color: black;
+        background-color:lightgrey;
+}
+.search-result-row > button{
+    background-color: grey;
+    padding:10px;
+}
+.search-result-row > button:hover{
+    background-color: red;
+    color:white;
+}

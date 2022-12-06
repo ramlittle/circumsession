@@ -1,0 +1,27 @@
+.aboutpage{
+    font-family: 'Play', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.aboutpage-box{
+    width: 1000px;
+    margin-bottom: 3%;
+}
+.aboutpage-box > h2{
+    text-decoration: underline;
+    margin-bottom: 4%;
+}
+.aboutpage-box > h4{
+    margin-bottom: 1%;
+}
+.aboutpage-box > p{
+    margin-bottom: 2%;
+    text-align: justify;
+}
+.aboutpage-box > ul,li{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}

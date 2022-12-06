@@ -1,0 +1,48 @@
+.schedule-cards{
+    height: fit-content;
+    margin-top: 10px;
+    color:#2D4059;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.new-date{
+    font-size: 20px;
+}
+
+.time-available{
+    font-size: 20px;
+}
+
+.whitebox {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.book-button{
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d78c01;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    width: fit-content;
+    border: 0;
+    border: 1px solid #d78c01;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.book-button:hover{
+    background-color: #222;
+    border: 1px solid #ffffff;
+}

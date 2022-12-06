@@ -1,0 +1,32 @@
+.search-form > input,
+.search-form > button{
+    padding:5px;
+    margin-right:5px;
+}
+.searched-table-result{
+    padding:5px;
+    width:100%;
+    font-size: small;
+    color:white;
+}
+.searched-row-header > th{
+    background-color: #2D4059;
+    padding: 10px;
+}
+
+.searched-table-result > td{
+    border: 1px solid grey;
+    padding: 5px;
+    color: black;
+    background-color:lightgrey;
+}
+.searched-table-result > button{
+    padding: 10px;
+    font-size: small;
+    background-color: #2D4059;
+    color:white;
+}
+.searched-table-result > button:hover{
+    background-color: black;
+    color:white;
+}
